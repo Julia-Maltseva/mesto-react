@@ -72,6 +72,14 @@ class Api {
         })
         .then(this.checkResponse)
     }
+
+    toggleLike(id, isLiked) {
+      if (isLiked) {
+        return this.deleteLike(id)
+      } else {
+        return this.addLike(id)
+      }
+    }
   
     addAvatar(avatar) {
       return fetch(`${this._baseUrl}/users/me/avatar`, {
