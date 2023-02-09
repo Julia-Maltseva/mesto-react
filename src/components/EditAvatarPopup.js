@@ -11,6 +11,10 @@ function EditAvatarPopup(props) {
         avatar: avatarLink.current.value
       })  
     }
+
+    React.useEffect(() => {
+      avatarLink.current.value = ''
+    }, [props.isOpen])
   
     return (
       <PopupWithForm 

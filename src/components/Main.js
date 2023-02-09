@@ -1,7 +1,6 @@
 import Card from './Card';
 import api from '../utils/api';
-import { useEffect } from 'react';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { CurrentUserContext } from '../contexts/CurrentUserContext';
 
 function Main(props) {
