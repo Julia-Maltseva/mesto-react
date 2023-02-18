@@ -53,6 +53,16 @@
 @import url(./blocks/popup/__title/_avatar/popup__title_avatar.css);
 @import url(./blocks/popup/__save-button/_avatar/popup__save-button_avatar.css);
 @import url(./blocks/profile/__avatar-button/profile__avatar-button.css);
-
-
+@import url(./blocks/auth/auth.css);
+@import url(./blocks/auth/__title/auth__title.css);
+@import url(./blocks/auth/__form/auth__form.css);
+@import url(./blocks/auth/__input/auth__input.css);
+@import url(./blocks/auth/__button/auth__button.css);
+@import url(./blocks/auth/__enter/auth__enter.css);
+@import url(./blocks/popup/__title/_notice/popup__title_notice.css);
+@import url(./blocks/popup/__notice-image/popup__notice-image.css);
+@import url(./blocks/header/__email/header__email.css);
+@import url(./blocks/header/__way/header__way.css);
+@import url(./blocks/header/__way/_exit/header__way_exit.css);
+@import url(./blocks/header/__container/header__container.css);
 
